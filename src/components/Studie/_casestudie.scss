@@ -1,0 +1,20 @@
+.stude {
+	padding: 80px 0;
+
+	.container {
+		.headerInfo {
+		}
+
+		.studeContent {
+			// card
+
+			&_Card {
+				color: red;
+				display: flex;
+			}
+			.reverseItem {
+				flex-direction: row-reverse;
+			}
+		}
+	}
+}

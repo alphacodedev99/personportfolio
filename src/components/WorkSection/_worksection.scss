@@ -1,0 +1,21 @@
+.worksection {
+	background-color: #000;
+	padding-bottom: 45px;
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 20px;
+		.icon {
+			width: 160px;
+			height: 60px;
+
+			border: 1px solid #9c9c9c;
+			border-radius: 6px;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.navbar {
+	background-color: #000;
+	height: 70px;
+
+	&_wrapper {
+		width: 80%;
+		margin: 0 auto;
+
+		background-color: #1b1b1b;
+		height: 100%;
+
+		padding: 0px 95px;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&_items {
+			display: flex;
+			align-items: center;
+			height: 100%;
+			ul {
+				display: flex;
+				gap: 70px;
+				list-style: none;
+
+				li {
+					color: #9c9c9c;
+					font-family: 'IBM Plex Mono', monospace;
+					font-size: 14px;
+				}
+			}
+		}
+
+		&_icons {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+		}
+	}
+}
