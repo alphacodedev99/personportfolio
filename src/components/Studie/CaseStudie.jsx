@@ -5,19 +5,23 @@ import CaseCard from '../CaseCard/CaseCard';
 import image1 from '../../assets/images/studies/image1.png';
 import image2 from '../../assets/images/studies/image2.png';
 import image3 from '../../assets/images/studies/image3.png';
+import TitleComponent from '../Title/TitleComponent';
 
 function CaseStudie() {
 	return (
 		<div className='stude'>
 			<div className='container'>
 				<div className='headerInfo'>
-					<h2>Case Studies</h2>
-					<p>
-						Solving user & business problems since last 15+
+					<TitleComponent 
+					title='Case Studies' 
+					desc='Solving user & business problems since last 15+
 						years.Lorem ipsum dolor sit amet, consectetur adipiscing
 						elit, sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua.{' '}
-					</p>
+						magna aliqua.'
+						color='#080808'	
+					/>
+					
+					
 				</div>
 
 				<div className='studeContent'>
@@ -25,16 +29,19 @@ function CaseStudie() {
 						color='#FFA217'
 						direction='no-revers'
 						image={image1}
+						title="Fintech"
 					/>
 					<CaseCard
 						color='#000AFF'
 						direction='revers'
 						image={image2}
+						title="EdTech"
 					/>
 					<CaseCard
 						color='#2AB090'
 						direction='no-revers'
 						image={image3}
+						title="AlphaTech"
 					/>
 				</div>
 			</div>

@@ -1,0 +1,61 @@
+.recent{
+    margin: 50px auto;
+    
+
+    .container{
+
+
+
+        .recent_wrapper{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+                .recent_card{
+
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    align-items: start;
+
+                    img{
+                        width: 100%;
+                    }
+
+                    h2{
+                        font-size: 32px;
+                        color: #080808;
+                    }
+
+                    p{
+                        font-size: 15px;
+                    }
+
+
+                    button{
+                        background-color: #8E0000;
+                        color: #fff;
+                        padding: 12px 24px;
+                        border: none;
+                        border-radius: 10px;
+
+                        display: flex;
+                        align-items: center;
+
+
+                    }
+                
+
+
+
+                }
+
+
+
+        }
+
+
+    }
+}

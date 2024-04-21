@@ -6,11 +6,33 @@
 		}
 
 		.studeContent {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
 			// card
 
 			&_Card {
-				color: red;
+				color: #808080;
 				display: flex;
+				gap: 20px;
+
+				.leftSide{
+
+
+
+					.btn_CaseCard{
+						padding: 12px 24px;
+						border: none;
+						cursor: pointer;
+						border-radius: 15px;
+
+						display: flex;
+						align-items: center;
+						margin-top: 20px;
+						color: white;
+					}
+
+				}
 			}
 			.reverseItem {
 				flex-direction: row-reverse;

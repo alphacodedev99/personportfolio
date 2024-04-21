@@ -1,0 +1,67 @@
+.form{
+   padding: 50px;
+    background-color: black;
+
+
+    .container{
+
+
+        .testimonials_wrapper{
+
+                form{
+
+                    display: flex;
+                    flex-direction: column;
+                    width: 60%;
+                    margin: 0 auto;
+
+                    .form_item{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        margin-bottom: 15px;
+
+                        label{
+                            color: #fff;
+                            font-size: 14px;
+                        }
+
+                        input{
+                            padding: 12px 24px;
+                            border: none;
+                            border-radius: 10xp;
+                            outline: none;
+                            border-radius: 10px;
+
+                        }
+                    }
+
+
+                    .btn_submit{
+                            
+                        background-color: #8E0000;  
+                        color: #fff;
+                        border-radius: 10px;
+                        text-align: center;
+
+                        border: none;
+                        padding: 12px 24px;
+                        cursor: pointer;
+                        
+                        &:hover{
+                            background-color: blue;
+                        }
+                        
+                      }
+
+
+                }
+
+
+        }    
+
+    }
+
+
+}

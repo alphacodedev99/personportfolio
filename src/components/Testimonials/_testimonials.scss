@@ -1,0 +1,59 @@
+.testimonials{
+    background-color: black;
+    padding: 40px 0px;
+
+    .container{
+
+        
+        .testimonials_wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            
+            .card_testimonial{
+                width: 400px;
+                padding: 25px;
+                border: 1px solid #f4f4f4;
+
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                border-radius: 10px;
+
+                position: relative;
+
+
+
+                .qouteImage{
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    top: -15px;
+                    left: 15px;
+                }
+
+
+                p{
+                    color: #fff;
+                }
+                
+                .user{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    
+                    h4{
+                        color: #fff;
+                    }
+                }
+
+            }
+            
+        }
+    }
+}
+
+
+
