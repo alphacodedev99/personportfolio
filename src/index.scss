@@ -4,6 +4,7 @@
 @import './components/Navbar/navbar';
 @import './components/Hero/hero';
 @import './components/WorkSection/worksection';
+@import './components/CaseCard/case-card';
 @import './components/Studie/casestudie';
 @import './components/Title/titleComponent';
 @import './components/Testimonials/testimonials';
@@ -18,6 +19,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 // variable
 

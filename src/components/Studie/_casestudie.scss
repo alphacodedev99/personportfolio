@@ -3,6 +3,9 @@
 
 	.container {
 		.headerInfo {
+			h2 {
+				padding-bottom: .5rem;
+			}
 		}
 
 		.studeContent {
@@ -17,15 +20,11 @@
 				gap: 20px;
 
 				.leftSide{
-
-
-
 					.btn_CaseCard{
 						padding: 12px 24px;
 						border: none;
 						cursor: pointer;
 						border-radius: 15px;
-
 						display: flex;
 						align-items: center;
 						margin-top: 20px;

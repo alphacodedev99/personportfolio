@@ -36,7 +36,7 @@ function Testimonials() {
 
 
 	return (
-		<div className='testimonials'>
+		<div id='testimonial' className='testimonials'>
 			<div className='container'>
 				<TitleComponent
 					title='Testimonials'

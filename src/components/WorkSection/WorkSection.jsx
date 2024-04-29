@@ -11,16 +11,21 @@ function WorkSection() {
 	const allImages = [header1, header2, header3, header4, header5];
 
 	return (
-		<div className='worksection'>
+		<div id='case-studies' className='worksection'>
 			<div className='container'>
-				{allImages.map((item, i) => {
-					return (
-						<div key={i} className='icon'>
-							<img src={item} alt={`mojaSlika ${i}`} />
-						</div>
-					);
-				})}
-			</div>
+				<div className="wrapper">
+					<div className="badge">
+						<span>Worked with</span>
+					</div>
+					{allImages.map((item, i) => {
+						return (
+							<div key={i} className='icon'>
+								<img src={item} alt={`mojaSlika ${i}`} />
+							</div>
+						);
+					})}
+				</div>
+				</div>
 		</div>
 	);
 }

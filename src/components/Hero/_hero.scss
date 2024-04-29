@@ -29,6 +29,10 @@
 				padding: 21px 64px;
 				border: none;
 				border-radius: 4px;
+				cursor: pointer;
+				&:hover {
+					background-color: blue;
+				}
 			}
 		}
 

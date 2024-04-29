@@ -15,20 +15,23 @@ function Navbar() {
 	];
 
 	return (
-		<div className='navbar'>
+		<div id='back-to-top-anchor' className='navbar'>
 			<div className='navbar_wrapper'>
 				<div className='navbar_wrapper_items'>
 					<ul>
 						{navItems.map((el, index) => {
-							return <li key={index}> {el} </li>;
+							const sectionId = el.toLowerCase().replace(/\s+/g, '-');
+							return <li key={index}>
+								<a href={`#${sectionId}`}>{el}</a>
+							</li>;
 						})}
 					</ul>
 				</div>
 
 				<div className='navbar_wrapper_icons'>
 					<img src={behance} alt='behance' />
-					<img src={linkedin} alt='behance' />
-					<img src={twitter} alt='behance' />
+					<img src={linkedin} alt='linkedin' />
+					<img src={twitter} alt='twitter' />
 				</div>
 			</div>
 		</div>
