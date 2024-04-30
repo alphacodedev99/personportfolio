@@ -19,7 +19,7 @@ function Footer() {
     const anchor = (event.target.ownerDocument || document).querySelector(
       '#back-to-top-anchor',
     );
-
+console.log('go to top');
     if (anchor) {
       anchor.scrollIntoView({
         block: 'center',
@@ -34,8 +34,7 @@ function Footer() {
         onClick={handleClick}
         className={isVisible ? "scroll-to-top-btn" : "scroll-to-top-btn--show-btn"}
         >
-          <svg fill="#000000" height="25px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-            viewBox="0 0 511.735 511.735" xml:space="preserve">
+          <svg fill="#000000" height="25px" width="20px" version="1.1" id="Layer_1" viewBox="0 0 511.735 511.735">
           <g>
             <g>
               <path d="M508.788,371.087L263.455,125.753c-4.16-4.16-10.88-4.16-15.04,0L2.975,371.087c-4.053,4.267-3.947,10.987,0.213,15.04

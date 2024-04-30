@@ -5,7 +5,7 @@ import profileImage from '../../assets/images/header/profile.jpg';
 
 function Hero() {
 	return (
-		<div className='hero'>
+		<div id='home' className='hero'>
 			<div className='container'>
 				<div className='hero_left'>
 					<h2>AlphaCode Dev</h2>

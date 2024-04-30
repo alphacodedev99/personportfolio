@@ -1,31 +1,26 @@
 .testimonials{
     background-color: black;
-    padding: 40px 0px;
+    padding: 2rem 0px 5rem 0;
 
-    .container{
-
-        
+    .container {
+        .titleComp {
+            h2 {
+                margin: 1rem 0;
+            }
+        }
         .testimonials_wrapper{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            align-items: center;
-            justify-content: center;
-            
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            gap: 2rem;
+            @include mobile {
+                grid-template-columns: 1fr;
+            }
             .card_testimonial{
-                width: 400px;
+                width: 100%;
                 padding: 25px;
                 border: 1px solid #f4f4f4;
-
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
                 border-radius: 10px;
-
                 position: relative;
-
-
-
                 .qouteImage{
                     width: 30px;
                     height: 30px;
@@ -33,22 +28,18 @@
                     top: -15px;
                     left: 15px;
                 }
-
-
-                p{
+                p {
                     color: #fff;
                 }
-                
-                .user{
+                .user {
                     display: flex;
                     align-items: center;
                     gap: 15px;
                     
-                    h4{
+                    h4 {
                         color: #fff;
                     }
                 }
-
             }
             
         }

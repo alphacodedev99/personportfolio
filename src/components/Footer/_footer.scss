@@ -20,6 +20,12 @@
         transform: translateY(0px);
         cursor: pointer;
         transition: all 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        @include mobile {
+            bottom: 25px;
+            right: 25px;
+            width: 35px;
+            height: 35px;
+        }
     }
     .scroll-to-top-btn--show-btn {
         position: fixed;
@@ -36,6 +42,12 @@
         transform: translateY(350px);
         cursor: pointer;
         transition: all 1.5s cubic-bezier(0, 0, 0.2, 1) 0ms;
+        @include mobile {
+            bottom: 25px;
+            right: 25px;
+            width: 35px;
+            height: 35px;
+        }
     }
 
 }

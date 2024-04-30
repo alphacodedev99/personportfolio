@@ -1,38 +1,38 @@
 .recent{
     margin: 50px auto;
-    
 
-    .container{
-
-
-
-        .recent_wrapper{
-
+    .container {
+        .titleComp {
+            h2 {
+                padding-bottom: 1rem;
+            }
+        }
+        .recent_wrapper {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 20px;
-
-                .recent_card{
-
+                .recent_card {
                     display: flex;
                     flex-direction: column;
                     gap: 20px;
                     align-items: start;
 
-                    img{
+                    img {
                         width: 100%;
                     }
 
-                    h2{
+                    h2 {
                         font-size: 32px;
                         color: #080808;
+                        @include mobile {
+                            font-size: 1.33rem;
+                        }
                     }
 
-                    p{
+                    p {
                         font-size: 15px;
                     }
-
 
                     button{
                         background-color: #8E0000;
@@ -40,22 +40,11 @@
                         padding: 12px 24px;
                         border: none;
                         border-radius: 10px;
-
                         display: flex;
                         align-items: center;
-
-
                     }
-                
-
-
 
                 }
-
-
-
         }
-
-
     }
 }
