@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500;700&family=Raleway:wght@100;200;300;500;700;900&display=swap');
 
 // components
+@import 'mixins';
 @import './components/Navbar/navbar';
 @import './components/Hero/hero';
 @import './components/WorkSection/worksection';
+@import './components/CaseCard/case-card';
 @import './components/Studie/casestudie';
 @import './components/Title/titleComponent';
 @import './components/Testimonials/testimonials';
@@ -18,13 +20,18 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
+
 // variable
 
 .container {
 	width: 80%;
 	margin: 0 auto;
 	padding: 0px 95px;
+	@include mobile {
+		padding: 0;
+	}
 }
 
 h1,
@@ -40,4 +47,11 @@ p,
 a,
 span {
 	font-family: 'IBM Plex Mono', monospace;
+}
+
+.only-mobile {
+	display: none;
+	@include mobile {
+		display: block;
+	}
 }

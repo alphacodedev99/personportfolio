@@ -3,35 +3,45 @@
 
 	.container {
 		.headerInfo {
+			h2 {
+				padding-bottom: .5rem;
+			}
 		}
 
 		.studeContent {
 			display: flex;
 			flex-direction: column;
 			gap: 20px;
+			
 			// card
-
 			&_Card {
 				color: #808080;
 				display: flex;
 				gap: 20px;
-
+				@include mobile {
+					flex-wrap: wrap;
+					flex-direction: row;
+				}
 				.leftSide{
-
-
-
 					.btn_CaseCard{
 						padding: 12px 24px;
 						border: none;
 						cursor: pointer;
 						border-radius: 15px;
-
 						display: flex;
 						align-items: center;
 						margin-top: 20px;
 						color: white;
 					}
 
+				}
+				.rightSide {
+					@include mobile {
+						img {
+							width: 100%;
+							height: auto;
+						}
+					}
 				}
 			}
 			.reverseItem {

@@ -20,25 +20,26 @@ function CaseStudie() {
 						magna aliqua.'
 						color='#080808'	
 					/>
-					
-					
 				</div>
 
 				<div className='studeContent'>
 					<CaseCard
 						color='#FFA217'
+						background='#fff6e9'
 						direction='no-revers'
 						image={image1}
 						title="Fintech"
 					/>
 					<CaseCard
 						color='#000AFF'
+						background='#d0e6ff'
 						direction='revers'
 						image={image2}
 						title="EdTech"
 					/>
 					<CaseCard
 						color='#2AB090'
+						background='#e0fff8'
 						direction='no-revers'
 						image={image3}
 						title="AlphaTech"

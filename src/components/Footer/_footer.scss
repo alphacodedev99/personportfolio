@@ -1,10 +1,53 @@
 .footer{
     background-color: #1B1B1B;
     padding: 20px;
-
-
-    p{
+    p {
         text-align: center;
         color: #fff;
     }
+    .scroll-to-top-btn {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        box-shadow: 0 4px 10px #444;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(0px);
+        cursor: pointer;
+        transition: all 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+        @include mobile {
+            bottom: 25px;
+            right: 25px;
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .scroll-to-top-btn--show-btn {
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        background-color: aliceblue;
+        box-shadow: 0 4px 10px #444;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(350px);
+        cursor: pointer;
+        transition: all 1.5s cubic-bezier(0, 0, 0.2, 1) 0ms;
+        @include mobile {
+            bottom: 25px;
+            right: 25px;
+            width: 35px;
+            height: 35px;
+        }
+    }
+
 }
